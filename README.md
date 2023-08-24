@@ -37,3 +37,32 @@ Usado para arquivos externos ao nosso site.
 **Relativo**
 <a href="/produtos/bicicletas.html">Bicicletas</a>
 Usado para arquivos internos do site.
+
+### Links
+
+**link**
+
+- Cria uma relação entre um documento HTML e um arquivo de estilo CSS.
+
+**rel**
+
+- Define o tipo de arquivo (stylesheet para CSS). É possível linkar outros também como favicons.
+
+**href**
+
+- Define o caminho do arquivo.
+
+```js
+<link rel="stylesheet" href="/style.css" />
+```
+
+Exemplo
+
+```js
+a {
+  color: black;
+  text-decoration: none;
+}
+```
+
+<!-- bloco css | propriedade | valor>
